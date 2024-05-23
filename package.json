@@ -7,7 +7,7 @@
     "dev-start": "nodemon --watch dist --exec \"node dist/src/index.js\"",
     "dev-watch": "tsc --watch",
     "dev": "npx concurrently \"npm run dev-watch \" \"npm run dev-start\"",
-    "start": "tsc -b && node dist/src/index.js"
+    "start": "tsc -b && node dist/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +19,6 @@
   "dependencies": {
     "axios": "^1.7.0",
     "chalk": "^4.1.2",
-    "ora": "^8.0.1"
+    "ora": "^5.4.1"
   }
 }

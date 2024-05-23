@@ -2,7 +2,7 @@ import axios from "axios";
 import ora, { Ora } from "ora";
 import chalk from "chalk";
 import { generateRandomEmail, selectRandomEmail } from "./generateRandomEmail";
-import constants from "src/configs/constants";
+import constants from "../configs/constants";
 import { generateRandomPhoneNum } from "./generateRandomPhoneNum";
 import { generateRandomUsername } from "./generateRandomUsername";
 export const sendRequest = async () => {

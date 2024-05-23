@@ -1,5 +1,5 @@
 import { config } from "process";
-import constants from "src/configs/constants";
+import constants from "../configs/constants";
 
 export const generateRandomEmail = () => {
   const words = "0123456789abcdefghijklmnopqrstuvwxyz";
